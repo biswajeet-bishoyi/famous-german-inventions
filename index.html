@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous German Inventions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Famous German Inventions</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Inventions</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h2>Innovations That Changed the World</h2>
+        <section class="card-container">
+            <div class="card" onclick="navigateTo('xray')">
+                <h3>X-rays</h3>
+                <p>Discovered by Wilhelm Roentgen, X-rays revolutionized medical imaging.</p>
+            </div>
+            <div class="card" onclick="navigateTo('automobile')">
+                <h3>Automobile</h3>     
+                <p>Carl Benz created the first practical automobile, shaping the future of transport.</p>
+            </div>
+            <div class="card" onclick="navigateTo('printingpress')">
+                <h3>Printing Press</h3>
+                <p>Johannes Gutenberg’s invention changed the world by making books accessible.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Famous German Inventions. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function navigateTo(page) {
+            window.location.href = page + ".html";
+        }
+    </script>
+
+</body>
+</html>
